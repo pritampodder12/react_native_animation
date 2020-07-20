@@ -1,0 +1,44 @@
+{
+  "name": "animation",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "npx react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/slider": "^2.0.0",
+    "@react-native-community/viewpager": "^1.1.6",
+    "@react-navigation/web": "^1.0.0-alpha.9",
+    "deprecated-react-native-listview": "0.0.6",
+    "fbjs": "^1.0.0",
+    "hoist-non-react-statics": "^3.2.1",
+    "invariant": "^2.2.4",
+    "prop-types": "^15.6.2",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-reanimated": "^1.8.0",
+    "react-native-safe-area-context": "^0.5.0",
+    "react-native-screens": "^2.4.0",
+    "react-native-vector-icons": "5.0.0",
+    "react-navigation": "^4.1.0-alpha.1",
+    "react-navigation-stack": "^1.10.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
